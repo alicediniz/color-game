@@ -1,0 +1,62 @@
+.jumbotron.jumbotron-fluid {
+	background: steelblue;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	margin: 0 0 auto;
+}
+
+.controlGame {
+	background-color: white;
+	margin: 0 0 15px auto;
+	text-align: center;
+	height: 30px;
+}
+
+button {
+	border:none;
+	background: none;
+	color: steelblue;
+	transition: all 0.5s;
+}
+
+body {
+	background: #232323 !important;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+
+.dot {
+	border-radius: 50%/50%;   /*da a forma de bolinha*/
+	background: red;
+	margin: 1.25%;
+	width: 30%;
+	padding-bottom: 30%;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 650px;
+}
+
+
+.selected {
+	background: steelblue;
+	color: white;
+}
+
+button:hover {
+	background: steelblue;
+	color: white;
+}
+
+#mensagem {
+	display: inline-block;
+	width: 25%;
+}
+
+#footer {
+	color: #B2B2B2;
+}

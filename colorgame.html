@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+	<!-- CABECALHO DA PAGINA -->
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+	  	<h2>THE GREAT</h2>	
+	    <h1 class="display-3" id="colorToGuess"></h1>
+	  	<h2>GUESSING GAME</h2>
+	  </div>
+	</div>
+	
+	<!-- CONTROLES DE JOGO -->
+	<div class="controlGame">
+		<button id="resetGame">NEW COLORS</button>
+		<span id="mensagem"></span>
+		<button class="level">EASY</button>
+		<button class="level selected">HARD</button>
+	</div>
+
+	<!-- OPCOES DE CORES -->
+	<div id="container">
+		<div class="row">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+		<div class="row">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+	</div>
+
+	<div id="footer" align="center">
+		<p> Copyright &copy; 2018 Alice Diniz Ferreira<p>
+	</div>
+	
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="colorgame.js"></script>
+</body>
+</html>
